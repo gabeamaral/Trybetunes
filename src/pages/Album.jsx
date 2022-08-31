@@ -40,6 +40,7 @@ class Album extends React.Component {
             musica.map((e, i) => (
               i > 0 && (
                 <MusicCard
+                  trackId={ e.trackId }
                   trackName={ e.trackName }
                   previewUrl={ e.previewUrl }
                 />
